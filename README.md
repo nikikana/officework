@@ -9,7 +9,7 @@ Fabricam is an instant website tool compiled with Jekyll and backed by Instagram
 * [Jekyll](https://github.com/mojombo/jekyll)
 * [Instagram Client ID](http://instagram.com/developer/clients/manage/)
 
-### Instructions
+### Installation
 
 Clone this repository:
 
@@ -25,3 +25,7 @@ Copy the sample config file:
 Edit your new `_config.yml` and fill in values for your site title, description and keywords. You can add a Google Analytics code or delete that line to leave it out. The Instagram configuration allows you to choose a single tag, specify an API Client ID, enable or disable captions, limit the number of photos displayed, and the feed refresh (in milliseconds).
 
 Finally, compile your site by running the `jekyll` command. Your finished site will be available in the `_site` directory.
+
+### Customizing
+
+You can add your own CSS rules to the `css/custom.css` file. Also, any content you add to `index.html` will be included on your site when it is compiled.
