@@ -1,0 +1,8 @@
+# OS X
+.DS_Store
+
+# Vim
+.*.sw[a-z]
+
+# Jekyll
+_site

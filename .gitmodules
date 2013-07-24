@@ -1,0 +1,6 @@
+[submodule "js/vendor/vegas"]
+	path = js/vendor/vegas
+	url = git@github.com:jaysalvat/vegas.git
+[submodule "js/vendor/instafeed"]
+	path = js/vendor/instafeed
+	url = git@github.com:stevenschobert/instafeed.js.git

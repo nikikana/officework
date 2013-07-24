@@ -1,0 +1,17 @@
+title: "SITE TITLE"
+tagline: "TAGLINE"
+exclude: README.md, LICENSE.md
+
+description: "DESCRIPTION"
+keywords: ['website', 'camera']
+
+repository: "https://github.com/Fabricatorz/fabricam"
+
+google_analytics: "UA-XXXXX-X"
+
+instagram:
+  tag: 'tag'
+  client_id: 'a5afcb38b720404ea660a257acaae0d5'
+  captions: true
+  limit: '15'
+  refresh: '60000'
