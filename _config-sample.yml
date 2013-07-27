@@ -1,6 +1,6 @@
 title: "SITE TITLE"
 tagline: "TAGLINE"
-exclude: README.md, LICENSE.md
+exclude: [README.md, LICENSE.md]
 
 description: "DESCRIPTION"
 keywords: ['website', 'camera']
