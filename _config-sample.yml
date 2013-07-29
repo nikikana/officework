@@ -15,3 +15,4 @@ instagram:
   captions: true
   limit: '15'
   refresh: '60000'
+  hashTag: false

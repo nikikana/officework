@@ -47,6 +47,13 @@
 			var showCaptions = {{site.instagram.captions}};
 			var limit = {{site.instagram.limit}};
 			var interval = {{site.instagram.refresh}}
+
+			var hashTag = "{{site.instagram.hashTag}}";  
+
+			if (hashTag) {
+				var hash = window.location.hash.replace('#', '');
+				tagName = hash ? hash : tagName;
+			}
 		</script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

@@ -22,7 +22,7 @@ Copy the sample config file:
 
     cp _config-sample.yml _config.yml
 	
-Edit your new `_config.yml` and fill in values for your site title, description and keywords. You can add a Google Analytics code or delete that line to leave it out. The Instagram configuration allows you to choose a single tag, specify an API Client ID, enable or disable captions, limit the number of photos displayed, and the feed refresh (in milliseconds).
+Edit your new `_config.yml` and fill in values for your site title, description and keywords. You can add a Google Analytics code or delete that line to leave it out. The Instagram configuration allows you to choose a single tag, specify an API Client ID, enable or disable captions, limit the number of photos displayed, and set the feed refresh (in milliseconds). There is also a hashTag options. If set to true, the tag will be taken from the URL, like `http://example.com/#tag'.
 
 ### Customizing
 
