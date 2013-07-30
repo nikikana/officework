@@ -40,21 +40,6 @@
 		<div id="message">
 			&nbsp;	
 		</div>
-		
-		<script>
-			var tagName = "{{site.instagram.tag}}";
-			var clientId = "{{site.instagram.client_id}}";
-			var showCaptions = {{site.instagram.captions}};
-			var limit = {{site.instagram.limit}};
-			var interval = {{site.instagram.refresh}}
-
-			var hashTag = "{{site.instagram.hashTag}}";  
-
-			if (hashTag) {
-				var hash = window.location.hash.replace('#', '');
-				tagName = hash ? hash : tagName;
-			}
-		</script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -62,6 +47,28 @@
         <script src="js/vendor/instafeed/instafeed.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+		
+		<script>
+			var tagName = "{{site.instagram.tag}}";
+			var hashTag = "{{site.instagram.hashTag}}";  
+
+			if (hashTag) {
+				var hash = window.location.hash.replace('#', '');
+				tagName = hash ? hash : tagName;
+			}
+
+			var options = {
+				tagName : tagName,
+				clientId : "{{site.instagram.client_id}}",
+				showCaptions : {{site.instagram.captions}},
+				limit : {{site.instagram.limit}},
+				interval : {{site.instagram.refresh}}
+			};
+
+			var fabricam = new Fabricam(options);
+			fabricam.run();
+
+		</script>
 
 		{% if site.google_analytics %}
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
