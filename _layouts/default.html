@@ -49,24 +49,30 @@
         <script src="js/main.js"></script>
 		
 		<script>
-			var tagName = "{{site.instagram.tag}}";
-			var hashTag = "{{site.instagram.hashTag}}";  
+			function fabricate() {
+				var tagName = "{{site.instagram.tag}}";
+				var hashTag = "{{site.instagram.hashTag}}";  
 
-			if (hashTag) {
-				var hash = window.location.hash.replace('#', '');
-				tagName = hash ? hash : tagName;
+				if (hashTag) {
+					var hash = window.location.hash.replace('#', '');
+					tagName = hash ? hash : tagName;
+				}
+
+				var options = {
+					tagName : tagName,
+					clientId : "{{site.instagram.client_id}}",
+					showCaptions : {{site.instagram.captions}},
+					limit : {{site.instagram.limit}},
+					interval : {{site.instagram.refresh}}
+				};
+
+				var fabricam = new Fabricam(options);
+				fabricam.run();
 			}
 
-			var options = {
-				tagName : tagName,
-				clientId : "{{site.instagram.client_id}}",
-				showCaptions : {{site.instagram.captions}},
-				limit : {{site.instagram.limit}},
-				interval : {{site.instagram.refresh}}
-			};
+			fabricate();
 
-			var fabricam = new Fabricam(options);
-			fabricam.run();
+			$(window).bind( 'hashchange', function(e) { fabricate(); });
 
 		</script>
 
