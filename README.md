@@ -30,7 +30,7 @@ You can add your own CSS rules to the `css/custom.css` file. Also, any content y
 
 ### Compiling
 
-Finally, compile your site by running the `jekyll` command. Your finished site will be available in the `_site` directory.
+Finally, compile your site by running the `jekyll build` command. Your finished site will be available in the `_site` directory.
 
 ### Saving your work
 
