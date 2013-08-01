@@ -87,5 +87,28 @@
             ga('create','{{site.google_analytics}}');ga('send','pageview');
         </script>
 		{% endif %}
+
+		{% if site.piwik_site_id %}
+		<!-- Piwik -->
+		<script type="text/javascript">
+			var _paq = _paq || [];
+			_paq.push(["trackPageView"]);
+			_paq.push(["enableLinkTracking"]);
+		
+			(function() {
+				var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.fabricatorz.com/";
+				_paq.push(["setTrackerUrl", u+"piwik.php"]);
+				_paq.push(["setSiteId", "{{site.piwik_site_id}}"]);
+				var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+				g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+		<!-- Piwik Image Tracker -->
+		<noscript>
+			<img src="https://analytics.fabricatorz.com/piwik.php?idsite={{site.piwik_site_id}}&amp;rec=1" style="border:0" alt="" />
+		</noscript>
+		<!-- End Piwik -->
+		{% endif %}
+
     </body>
 </html>
