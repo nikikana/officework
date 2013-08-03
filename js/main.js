@@ -56,6 +56,10 @@
 				  $.vegas('overlay', {
 					src:'js/vendor/vegas/overlays/01.png'
 				  });
+
+				  if (limit === '1' || limit === 1) {
+					$.vegas('pause');
+				  }
 				},	
 			});
 
