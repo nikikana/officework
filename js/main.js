@@ -23,7 +23,7 @@
 				limit: limit,
 				success: function(feed) {
 					var data = feed.data;
-		
+
 					var backgrounds = [];
 					var captions = [];
 
@@ -60,7 +60,7 @@
 				  if (limit === '1' || limit === 1) {
 					$.vegas('pause');
 				  }
-				},	
+				},
 			});
 
 			feed.run();
@@ -68,11 +68,11 @@
 			setInterval(function() {
 				feed.run()
 			}, interval);
-		
+
 			return true;
 
 		};
-		
+
 		return Fabricam;
 	})();
 
