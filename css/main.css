@@ -107,6 +107,18 @@ a, a:visited {
 	text-decoration: none;
 }
 
+#logo {
+	display:block;
+	width: 200px;
+	margin: 100px auto 0;
+	opacity: 0.9;
+}
+
+#logo img {
+	width: 100%;
+	height: auto;
+}
+
 #message .caption {
 	display: block;
 	position: absolute;
