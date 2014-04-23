@@ -7,6 +7,8 @@ keywords: ['website', 'camera']
 
 repository: "https://github.com/Fabricatorz/fabricam"
 
+google_analytics: "UA-XXXXX-X"
+
 logo: 'img/camera-logo.png'
 
 instagram:
