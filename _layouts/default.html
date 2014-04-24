@@ -25,6 +25,24 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 
+        {% if site.logo %}
+        <style>
+          {%if site.logo.height %}
+              #logo img {
+                height: {{site.logo.height}}px;
+              }
+          {% endif %}
+          {%if site.logo.width %}
+            #logo {
+              width: {{site.logo.width}}px;
+            }
+            #logo img {
+              width: {{site.logo.width}}px;
+            }
+          {% endif %}
+        </style>
+        {% endif %}
+
 		  <!-- Add your site-specific styles to custom.css -->
         <link rel="stylesheet" href="css/custom.css">
 
@@ -35,12 +53,10 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-    {% if site.logo %}
+    <div id="floater"></div>
     <div id="logo">
-      <img src="{{site.logo}}" alt="Logo" />
+      <img src="{{site.logo.image}}" alt="Logo" />
     </div>
-    {% endif %}
 
 		{{ content }}
 

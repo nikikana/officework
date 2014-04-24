@@ -9,7 +9,10 @@ repository: "https://github.com/Fabricatorz/fabricam"
 
 google_analytics: "UA-XXXXX-X"
 
-logo: 'img/camera-logo.png'
+logo:
+  image: 'img/camera-logo.png'
+  width: 200
+  height: 200
 
 instagram:
   tag: 'tag'
