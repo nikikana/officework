@@ -28,6 +28,9 @@
         {% if site.logo %}
         <style>
           {%if site.logo.height %}
+              #floater {
+                margin-bottom: -{{site.logo.height}}px;
+              }
               #logo img {
                 height: {{site.logo.height}}px;
               }
