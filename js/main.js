@@ -14,6 +14,7 @@
 			var limit = this.options.limit;
 			var showCaptions = this.options.showCaptions;
 			var interval = this.options.interval;
+      var delay = this.options.delay;
 
 			var feed = new Instafeed({
 				get: 'tagged',
@@ -45,6 +46,7 @@
 					}
 
 				  $.vegas('slideshow', {
+            delay: delay,
 				  	backgrounds: backgrounds,
 					walk: function(step) {
 						if (showCaptions) {
