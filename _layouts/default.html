@@ -57,9 +57,11 @@
         <![endif]-->
 
     <div id="floater"></div>
+    {% if site.logo %}
     <div id="logo">
       <img src="{{site.logo.image}}" alt="Logo" />
     </div>
+    {% endif %}
 
 		{{ content }}
 
