@@ -97,20 +97,127 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 html, body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body {
-	color: #ECF0F1;
-	font-family: monospace;
+    color: #000;
+    font-size: 1.5em;
 }
 
 a, a:visited {
-	color: #7F8C8D;
-	text-decoration: none;
+    color: #1EAEDB;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 2rem 0 2rem;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font: 400 87px/84px Abril Fatface;
+    margin: 0.4em 0 0 0;
+    padding: 0;
+    letter-spacing: 0rem;
+}
+.header h2 {
+    color: #666;
+    font: 300 18px/24px 'open sans';
+    margin: -0.5em 0 0 0.5em;
+    letter-spacing: 0rem;
+}
+
+.fabricam-tags {
+    background-color: rgb(245, 245, 245);
+    padding: 1em;
+    height: 80px;
+    
+}
+.fabricam-tags h2 {
+    margin: 0.5em;
+}
+
+.footer {
+    font-size: 0.8em;
+}
+.hero {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  /*.hero {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }*/
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  /*.hero {
+    height: 190px;
+  }
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .hero {
+    padding: 12rem 0 12rem;
+  }*/
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  /*.hero {
+    padding: 22rem 0;
+  }
+  .hero-heading {
+    font-size: 3.0rem;
+  }*/
+}
+
+.desc h2 {
+    font-size: 2.5rem;
+}
+
+.desc h3 {
+    font-size: 1.75rem;
 }
 
 #floater {
@@ -134,6 +241,33 @@ a, a:visited {
 #logo img {
 	width: 100%;
 	height: auto;
+}
+
+.fabricam {
+    background-size: cover;
+    padding: 35rem 0 25rem;
+}
+
+.fabricam .section-description { 
+  margin-bottom: 4rem;
+}
+
+.map {
+    border: 1em solid rgb(245, 245, 245);
+}
+
+.address {
+    text-align: left;
+}
+.address p {
+    margin: 0;
+}
+
+.event-title {
+    font-weight: bolder;
+}
+.event-date {
+    color: red;
 }
 
 #message .caption {

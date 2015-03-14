@@ -1,0 +1,64 @@
+title: "Office Work"
+tagline: "Taking care of business"
+exclude: [README.md, LICENSE.md]
+
+keywords: ['office', 'work']
+
+repository: "https://github.com/Fabricatorz/fabricam"
+
+google_analytics: "UA-XXXXX-X"
+
+instagram:
+  tag: 'officework'
+  client_id: '01625755b2f7452997a29157c2a10d40'
+  captions: true
+  limit: '5'
+  refresh: '10000'
+  hashTag: true
+
+slideshow:
+  delay: 3000
+
+description: "<p>Did we put an office in the gallery, or a gallery in the office? Come see for yourself. Through events, interactive departments, and participatory archives, we repurpose the vocabulary and technology of the office and contemporary art in order to facilitate encounters with the human side of work, the absurd side of labor, and the creative side of knowledge.</p><p>Office Work is a social practice project by <a href='http://savernackstreet.com/'>Carrie Sinclair Katz</a>, <a href='http://loungerjoy.com/home.html'>Jon Gourley</a>, and <a href='http://www.thebigconversationspace.org/'>The Big Conversation Space</a> (Niki Korth and Clemence de Montgolfier) that recognizes the so-called <a href='https://www.artpractical.com/column/op-ed-reengineering-venture-culture-platforms-for-arttech/'>Kulturkampf ongoing in the San Francisco Bay Area</a> and aims to use the jargon of 'work spaces' to forge a common understanding.</p><p>Plants provided by San Francisco Plant Co.</p>"
+show-details: "is a show at <a href='http://www.storefrontlab.org/''>StoreFrontLab</a> that runs from April 4-25, 2015."
+
+address_lines:
+  - "April 4-25, 2015"
+  - "<strong>StoreFrontLab</strong>"
+  - "337 Shotwell Street"
+  - "San Francisco, California 94110"
+
+office_hours:
+  - "Wednesday, Thursday: 12 - 5 pm"
+  - "Saturday: 1 - 7 pm"
+  - "Sunday: 12 - 5 pm"
+  - "Fridays by appointment"
+  - "We will also have Office Hours during our 4/10 and 4/22 events, and may add new hours. Please check the website for updates. If you’d like to schedule an appointment in advance, or request an appointment outside of our office hours, please email <a href='mailto:secretaryroseanderson@gmail.com'>our secretary</a>."
+
+events:
+  - date: "Sunday 5 April, 1 - 5 pm"
+    title: "Wikipedia Edit-a-Thon: Art & Bureaucracy"
+    description: "Learn how to edit Wikipedia and help improve articles about art, offices, bureaucracy, systems and workplace behavior."
+  - date: "Friday 10 April 2015, 5:30 - 9 pm"
+    title: "Mid-Point Open House/Office Party"
+    description: "Come to the office to engage with our creative departments, review our files, share your stories, find what you’ve lost, land your dream job, or just enjoy a drink and have fun with our photo copier."
+  - date: "Thursday 16 April"
+    title: "City Makers Lecture"
+    description: "TBD"
+  - date: "Friday 17 April, 6:30 - 8:30 pm"
+    title: "Meeting about Nothing"
+    description: "After Samuel Beckett wrote 'Nothing is more real than nothing,' (Malone Dies 1959), the (f)utility of modern office meetings has undergone a dramatic shift. Or has it? In efforts to analyze the current state of Nothing, an emergency meeting has been called, which includes presentations by Daniel Yovino, Niki Korth, and other experts on Nothing. Your attendance at this meeting is neither required nor optional."
+  - date: "Wed 22 April 6-10 pm"
+    title: "Office Birthday Party!"
+    description: "The offices of Gourley and Korth are both celebrating their birthdays, and you’re invited to the office party! Come enjoy the sheet cake and mingling around the water cooler."
+
+artists:
+  - title: "Journal of Bureaucratic Stories (JOBS)"
+    person: "The Big Conversation Space (Niki Korth and Clémence de Montgolfier)"
+    description: "Every workplace has a legend, and no story is too mundane. <strong>JOBS</strong> is an interactive archive and production platform that is collecting and growing narratives involving bureaucracy, offices, studios, libraries, and other places of work for archival purposes and eventual publication in the peer-reviewed Journal of Bureaucratic Stories. Following written or verbal donation in the gallery space, narratives are then filed and made available for review or annotation by visitors."
+  - title: "Department of Lost and Found"
+    person: "Jon Gourley"
+    description: "The <strong>Department of Lost and Found</strong> provides services to visitors to help them develop and create signage to aid in retrieving lost articles, ideas, dreams, or concepts. The Department then assists in hanging the resulting signs around the city to aid in retrieval of said articles, ideas, dreams, or concepts. A copy of the poster is also made and filed in the archive alongside other found Lost & Found signs and requests from the street and the Internet, for reference by other visitors."
+  - title: "Archive of Marks"
+    person: "Carrie Sinclair Katz"
+    description: "The <strong>Archive of Marks</strong> accrues its contents through meetings with the Archivist (Katz) to explore the marks incurred thus far in ones' lifetime. These will be collaboratively indexed, cross-referenced, catalogued, and preserved within the Archive. Tactics will be employed to secure or displace memory. Confidentiality, and the complexities therein, will be considered. "

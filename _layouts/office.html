@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+        <title>{{site.title}}{%if site.tagline %} - {{site.tagline}}{% endif %}</title>
+  <meta name="description" content="{{site.description}}">
+  <meta name="author" content=""> <!-- TODO -->
+  <meta name="generator" content="{{site.repository}}" />
+  <link rel="help" href="{{site.repository}}" />
+
+  {% if page.tags %}
+  <meta name="keywords" content="{{page.tags | join: ', '}}" />
+  {% else %}
+  <meta name="keywords" content="{{site.keywords | join: ', '}}" />
+  {% endif %}
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Abril+Fatface:400|Open+Sans:400,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="js/vendor/vegas/src/vegas.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section header">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h1>{{site.title}}</h2>
+          <h2>{{site.tagline}}</h2>
+        </div>
+        <div class="one-half column">
+          <svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Your_Icon" x="0px" y="0px" width="250px" height="250px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" data-ember-extension="1">
+        <switch>
+          <foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
+            </foreignObject>
+          <g i:extraneous="self">
+            <path d="M41.259,39.779c0-0.946,1.016-0.967,1.016,0c0,0.834,0,2.533,0,4.221h15.037c0-1.773,0-3.395,0-4.8    c1.738,1.776,4.695,4.78,4.719,4.8h3.686c0.09-0.076,4.35-4.33,6.668-6.648c2.134-2.134-0.75-4.945-3.25-2.445    c-0.791,0.792-3.956,3.954-4.522,4.519c-0.562,0.564-0.964,0.465-1.358,0.071c-1.354-1.422-3.744-3.802-6.875-6.837    c-0.891-0.866-1.771-1.747-4.004-1.747c-0.688,0-5.66,0-7.834,0c-5.042,0-7.219,2.73-7.219,6.285c0,1.79,0,4.055,0,6.803h3.937    C41.259,41.998,41.259,40.491,41.259,39.779z" style="fill: red;"/>
+            <circle cx="49.899" cy="23.764" r="4.707"/>
+            <path d="M45.228,57.339c-1.631,0-2.955,1.325-2.955,2.958v13.912c0,1.632,1.323,2.958,2.955,2.958    c1.633,0,2.958-1.326,2.958-2.958c0-0.003-0.002-0.007-0.002-0.009l0.002-13.903C48.186,58.664,46.86,57.339,45.228,57.339z" style="fill: red;"/>
+            <path d="M54.365,57.339c-1.633,0-2.959,1.325-2.959,2.958v13.912c0,1.632,1.326,2.958,2.959,2.958s2.955-1.326,2.955-2.958    c0-0.003,0-0.007,0-0.009V60.297C57.32,58.664,55.998,57.339,54.365,57.339z" style="fill: red;"/>
+            <polygon points="21.247,51.172 20,53 20,56.004 80,56 80,53 78.775,51.213 76.781,52.259 77.656,53.575 77.656,53.749     22.295,53.749 22.295,53.575 23.199,52.22   "/>
+            <path d="M27.989,43.611l0.286,0.43l0.187,0.283L29.574,46h1.671c0,0,0.023,0,0.036,0l-1.587-2.389l-0.768-1.154l-0.492-0.74    l-0.142-0.214l-0.004,0.003l-1.18,0.783L27.989,43.611z"/>
+            <polygon points="26.311,41.112 26.462,41.341 27.654,40.55 27.501,40.321 27.353,40.098 27.179,39.835 25.988,40.626     26.161,40.889   "/>
+            <path d="M1.317,45.363c-0.387,0-0.802,0.077-1.207,0.195L2,63v18h3V63c-0.845-7.452-1.641-14.591-2-16.387    C2.816,45.694,2.129,45.363,1.317,45.363z"/>
+            <path d="M26.265,59.029c-0.638-1.391-0.943-1.97-3.385-1.97c0,0-2.49,0.007-3.394,0.007c-0.906,0-1.628-0.389-1.563-1.924    c0.068-1.594-0.278-4.752-0.167-7.09l5.676,3.082l7.746-0.004c0.457,0,0.828-0.102,1.138-0.263c0.178-0.094,0.334-0.2,0.465-0.332    c0.131-0.132,0.238-0.278,0.323-0.437c0.028-0.051,0.052-0.105,0.075-0.161c0.179-0.425,0.208-0.908,0.095-1.361    c-0.047-0.18-0.116-0.353-0.205-0.516c-0.026-0.049-0.052-0.096-0.081-0.145c-0.106-0.161-0.242-0.309-0.397-0.438    c-0.158-0.134-0.339-0.249-0.548-0.331c-0.254-0.103-0.541-0.162-0.863-0.162l-6.692-0.002l-7.682-5.717    c-0.876-0.633-2.004-0.952-3.153-0.952c-2.614,0-5.34,1.658-5.497,5.048c0,0-0.632,13.639-0.724,15.887    c-0.09,2.258,1.674,3.143,4.116,3.143c2.443,0,8.142,0,9.16,0c1.017,0,1.383,0.155,1.852,1.397    c0.469,1.237,4.302,11.377,5.125,13.57c0.572,1.396,1.704,1.971,2.83,1.971c1.839,0,3.649-1.543,2.89-3.539    C32.005,74.127,26.903,60.423,26.265,59.029z"/>
+            <circle cx="14.873" cy="33.804" r="4.708"/>
+            <circle cx="85.125" cy="33.804" r="4.708"/>
+            <path d="M86.346,40.315c-1.15,0-2.275,0.319-3.154,0.952l-7.68,5.717l-6.691,0.002C66.057,46.986,65.979,51,69,51h7.746    l5.494-2.947c0.113,2.338-0.232,5.496-0.166,7.09c0.066,1.535-0.654,1.924-1.562,1.924c-0.904,0-3.391-0.007-3.391-0.007    c-2.443,0-2.748,0.579-3.387,1.97c-0.637,1.394-5.74,15.098-7.139,18.763c-0.76,1.996,1.053,3.539,2.893,3.539    c1.121,0,2.256-0.574,2.824-1.971c0.824-2.193,4.658-12.333,5.125-13.57c0.469-1.242,0.838-1.397,1.854-1.397    c1.02,0,6.719,0,9.16,0s4.207-0.885,4.115-3.143c-0.094-2.248-0.723-15.887-0.723-15.887    C91.688,41.974,88.961,40.315,86.346,40.315z"/>
+            <path d="M98.793,45.363c0.387,0,0.803,0.077,1.207,0.195L98,63v18h-3V63c0,0,1.838-15.03,2.109-16.387    C97.294,45.694,97.98,45.363,98.793,45.363z"/>
+            <g>
+              <polygon points="27.158,44.324 26.945,44.003 26.069,44 24.721,46 27.345,46 27.808,45.306    "/>
+            </g>
+            <g>
+              <path d="M73.924,46h1.303l-1.336-2c-0.404,0-0.836,0-1.299,0h-1.287l1.332,2H73.924z"/>
+            </g>
+          </g>
+        </switch>
+        </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section fabricam"></div>
+
+  <div class="section hero">
+    <div class="container fabricam-tags">
+      <div class="row">
+        <div class="one-half column">
+          <h2>#{{ site.instagram.tag }}</h2>
+          <p>Use #{{ site.instagram.tag }} on instagram to see your image here.</p>
+        </div>
+        <div class="one-half column tags"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section desc">
+    <div class="container">
+      <div class="row">
+        <div class="full column">
+          {{ site.description }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-half column address">
+          {% for address_line in site.address_lines %}
+            <p>{{ address_line }}</p>
+          {% endfor %}
+        </div>
+        <div class="one-half column">
+          <h2>Office Hours</h2>
+          <ul>
+          {% for office_hour in site.office_hours %}
+            <li>{{ office_hour }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        {% if site.events %}
+        <h2>Events</h2>
+        <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Event</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for event in site.events %}
+              <tr>
+                <th class="event-date">{{ event.date }}</th>
+                <th class="event-title">{{ event.title }}</th>
+              </tr>
+              <tr>
+                <td colspan="2">{{ event.description }}</th>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          {% endif %}
+      </div>
+      {% if site.artists %}
+      <h2>Projects</h2>
+      {% for artist in site.artists %}
+      <div class="row">
+        <div class="one-half column">
+          <h2>{{ artist.title }}</h2>
+          <h3>{{ artist.person }}</h3>
+        </div>
+        <div class="one-half column">
+            <p>{{ artist.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
+      <div class="row">
+        <div class="full column footer">
+          <p><strong>{{ site.title }}</strong> {{ site.show-details }}</p>
+          <p>This site is built using <a href="https://github.com/Fabricatorz/fabricam">fabricam</a>. It uses <a href="http://www.google.com/analytics/">google analytics</a> to find out how many people visit it and some related information. You can opt out of google analytics by <a href="https://tools.google.com/dlpage/gaoptout">installing a browser add-on</a>. Unless otherwise noted, all content is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+  <script src="js/vendor/vegas/src/vegas.js"></script>
+  <script src="js/vendor/instafeed/instafeed.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    function fabricate() {
+      var tagName = "{{site.instagram.tag}}";
+      var hashTag = "{{site.instagram.hashTag}}";
+
+      if (hashTag) {
+        var hash = window.location.hash.replace('#', '');
+        tagName = hash ? hash : tagName;
+      }
+
+      var options = {
+        tagName : tagName,
+        clientId : "{{site.instagram.client_id}}",
+        showCaptions : {{site.instagram.captions}},
+        limit : {{site.instagram.limit}},
+        interval : {{site.instagram.refresh}},
+        delay: {{site.slideshow.delay}}
+      };
+
+      var fabricam = new Fabricam(options);
+      fabricam.run();
+    }
+
+    fabricate();
+
+    $(window).bind( 'hashchange', function(e) { fabricate(); });
+
+  </script>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
